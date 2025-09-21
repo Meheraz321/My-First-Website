@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <div class="logo"><img src="Mehedi.jpg" width="200" height="100" alt=""></div>
+                <div>
+                    <div style="font-weight: 800;">My First Website</div>
+                    <div class="muted" style="font-size: 12px;">Beautiful template</div>
+                </div>
+            </div>
+
+            <nav>
+               <a href="#features">Features</a>
+               <a href="#gallery">Gallery</a>
+               <a href="#contact">Contact</a>
+               <a href="btn" herf="#contact">hire me</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="card">
+                <h1>Modern, fast & responsive websiite</h1>
+                <p class="lead">Design bye Beautiful Website</p>
+                <div class="actions">
+                    <a class="btn" href="#contact">Get started</a>
+                    <a class="link" href="#gallery">Explore</a>
+                </div>
+                <div class="features" id="features">
+                    <div class="feature"><h3>Responsive</h3><p>Mobile-friendly design</p></div>
+                    <div class="feature"><h3>Lightweight</h3><p>Fast loading</p></div>
+                    <div class="feature"><h3>Customizable</h3><p>Easy to edit</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <div class="title">Design A</div>
+                <div class="title">Design B</div>
+                <div class="title">Design C</div>
+                <div class="title">Design D</div>
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <input id="name" placeholder="Your name" required>
+                <input id="email" type="email" placeholder="Email" required>
+                <textarea id="message" placeholder="Message" required></textarea>
+                <button class="btn" type="submit" id="sendBtn">Send message</button>
+                <div id="status" class="muted" style="font-size: 13px;"></div>
+            </form>
+        </section>
+
+        <footer>
+            <div>© <span id="year"></span>MyWebsite</div>
+            <div class="muted">Made with ❤ in Bangladesh</div>
+        </footer>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
